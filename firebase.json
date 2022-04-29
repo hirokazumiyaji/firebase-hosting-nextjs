@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/apps/app/exported",
+    "trailingSlash": false,
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+  },
+  "functions": {
+    "source": "dist/functions"
+  }
+}

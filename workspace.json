@@ -1,4 +1,9 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "app": "apps/app",
+    "app-e2e": "apps/app-e2e",
+    "firebase-admin": "libs/firebase/admin",
+    "firebase-web": "libs/firebase/web"
+  }
 }

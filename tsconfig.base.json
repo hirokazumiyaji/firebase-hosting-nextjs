@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@firebase-hosting-nextjs/firebase/admin": [
+        "libs/firebase/admin/src/index.ts"
+      ],
+      "@firebase-hosting-nextjs/firebase/web": [
+        "libs/firebase/web/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
